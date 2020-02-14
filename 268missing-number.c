@@ -6,7 +6,7 @@ int missingNumber(int* nums, int numsSize){
     }
     return sum-numsum;
 }
-//利用哈希表查找
+//建立新数组查找
 int missingNumber(int* nums, int numsSize){
    int* res=(int *)calloc(numsSize+1,sizeof(int));
    for(int i=0;i<numsSize;i++){
