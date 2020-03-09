@@ -1,2 +1,2 @@
-# leetcode记录
-leetcode-c
+# LeetCode记录
+LeetCode-c
