@@ -1,4 +1,4 @@
-struct ListNode* getKthFromEnd(struct ListNode* head, int k) {
+int kthToLast(struct ListNode* head, int k) {
     struct ListNode *p, *q;
     p = q = head;
     for(k; k > 1; k--) {
@@ -8,5 +8,5 @@ struct ListNode* getKthFromEnd(struct ListNode* head, int k) {
         p = p->next;
         q = q->next;
     }
-    return q;
+    return q->val;
 }
