@@ -1,4 +1,4 @@
-//栈
+//?
 typedef struct stack {
     char* top;
     char* base;

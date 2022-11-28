@@ -1,3 +1,2 @@
 # LeetCode
-LeetCode-c  
-LeetCode-python
+LeetCode-c

@@ -1,11 +1,11 @@
-#利用哈希表，空间换时间
+# 利用哈希表，空间换时间
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
-        n=len(nums)
-        mapper={}
+        n = len(nums)
+        mapper = {}
         for i in range(n):
-            if (target-nums[i] in mapper):
-                return [mapper[target-nums[i]],i]
+            if (target - nums[i] in mapper):
+                return [mapper[target - nums[i]], i]
             else:
-                mapper[nums[i]]=i
+                mapper[nums[i]] = i
         return []

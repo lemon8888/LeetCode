@@ -1,4 +1,4 @@
-//移动快慢指针，剩下的补0（类似027）
+//移动快慢指针，剩下的补0（类似27）
 void moveZeroes(int* nums, int numsSize) {
     int slow = 0;
     for(int fast = 0; fast < numsSize; fast++) {
